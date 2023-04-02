@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- css file -->
+    <link href="../css files/homepage.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+    <nav class="navbar shadow  bg-white px-3">
+        <div class="container-fluid">
+
+            <div class="logo">
+                <a href="#"> 
+                    <img src="../images/ju logo.png" alt="ju-logo"/>
+                 </a>
+                </div>
+            
+                <ul class="list d-flex">
+                <div class="language">
+                    <div class="dropdown mx-3">
+                        <button class="btn btn-light bg-white " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-sharp fa-solid fa-globe fs-4  text-primary"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">English (en)</a></li>
+                          <li><a class="dropdown-item" href="#"> العربية (ar)</a></li>
+                        </ul>
+                      </div>
+                </div>
+
+                <div class="user-active ">
+                         <div class="dropdown mx-3">
+                        <button class="btn btn-light dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-circle-user fs-4 text-secondary"></i>
+                        </button>
+                        <div class="dropdown-menu px-3 ">
+                         <a  href="#">
+                            <span><i class="fa-solid fa-user p-2"></i></span>
+                            <span class="name" id="name-active">rawan</span>
+                         </a>
+                         <hr>
+                         <a href="#">
+                           <span><i class="fa-solid fa-gauge p-2"></i></span>
+                            <span>Dashboared</span>
+                         </a>
+
+                         <a href="#">
+                            <span><i class="fa-solid fa-user  p-2"></i></span>
+                            <span>Profile</span>
+                         </a>
+
+                         <a href="#">
+                            <span><i class="fa-solid fa-message p-2"></i></span>
+                            <span>Message</span>
+                         </a>
+
+                         <hr>
+
+                         <a href="../index.html">
+                            <span><i class="fa-solid fa-right-from-bracket fa-rotate-180  p-2"></i></span>
+                            <span>Log out</span>
+                         </a>
+                        </div>
+                      </div>
+ 
+                </div>
+
+                </ul>
+
+
+
+
+
+        </div>
+    </nav>
+
+
+    <section class="user-page py-5 border my-4 mx-2 shadow bg-white">
+        <div class="container">
+        <div class="userpage-content   d-lg-flex d-md-block align-items-center">
+            <div class="userpage-image">
+                 <img src="../images/user.png" class="rounded-circle me-5"/>
+            </div>
+            <div class="userpage-name">
+                <h1 id="userpage-name" class="text-secondary"></h1>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+
+    <section class=" functions bg-white py-3 px-5 mx-2">
+        <h5 class="d-inline fs-4 text-dark">Course overview</h5>
+        <div class="function-overview mt-5 py-3 px-3">
+            <div class="row">
+    
+                <div class="function p-0 col-lg-5 col-md-5 col-sm-12 rounded-2  m-2 border shadow " >
+                    <a href="#">
+                    <img src="../images/func1.svg" class="card-img-top" alt="..." >
+                    </a>
+                    <div class="card-body bg-white h-50 px-3 py-3">
+                    <h5 class="card-title fw-normal">Materials Exchange Request</h5>
+                    </div>
+                </div>
+
+
+                <div class="function p-0 col-lg-5  col-md-5 col-sm-12  rounded-2 m-2 border shadow " >
+                    <a href="#">
+                    <img src="../images/func2.svg" class="card-img-top" alt="..." >
+                    </a>
+                    <div class="card-body bg-white h-50 px-3 py-3">
+                    <h5 class="card-title fw-normal">Order State</h5>
+                    </div>
+                </div>
+
+
+                <div class="function p-0 col-lg-5  col-md-5 col-sm-12  rounded-2 m-2 border shadow " >
+                    <a href="#">
+                    <img src="../images/func3.svg" class="card-img-top" alt="..." >
+                    </a>
+                    <div class="card-body bg-white h-50 px-3 py-3">
+                    <h5 class="card-title fw-normal">Event Request</h5>
+                    </div>
+                </div>
+
+
+            </div>
+            
+
+           
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="contact col-md-12  py-3 px-5">
+                <h3 class="text-primary">Stay in touch</h3>
+                <h4 class="text-light-emphasis fw-normal">Contact Infomation</h4>
+                    <ul class="py-3">
+                        <li class="my-3">
+                        <i class="fa-solid fa-globe fs-4  mx-3"></i>
+                        <a href="#" target="_blank"  class="fs-5 text-decoration-none">Website: http://www.ju.warehouse.jo</a>
+                        </li>
+        
+                        <li class="my-3">
+                            <i class="fa-solid fa-phone fs-4 mx-3 "></i>
+                        <a href="tel:Telephone : +962 6 5355000 ext: 22563" target="_blank"  class="fs-5 text-decoration-none">Telephone : +962 6 5355000 ext: 22563</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+           
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../js files/homepage.js"></script>
+        <!-- bootstrap js link -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+</body>
+</html>
