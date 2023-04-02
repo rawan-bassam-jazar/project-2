@@ -1,0 +1,138 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* navbar */
+.navbar .logo img {
+max-height:60px;
+ 
+}
+
+
+html {
+    font-size:15px;
+}
+
+/* landing */
+
+.landing {
+    background-image:url(../images/ju\ background.JPG);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+   
+}
+
+.landing .text h1 {
+     font-size:3rem;
+     font-family: "Poppins",sans-serif;
+     font-weight: bold;
+     margin-bottom:20px;
+     text-shadow: 2px 3px 4px black;
+}
+
+.landing .login-form {
+    background-color:#fff;
+    opacity:1;
+    padding:3rem 2rem;
+    margin:30px 0;
+}
+
+.landing .login-form form label{
+font-size: 1.5rem;
+color:rgb(83, 82, 82);
+margin-bottom:4px;
+margin-top:10px;
+}
+
+
+.landing .login-form form .username .email-icon,
+.landing .login-form form .password .password-icon {
+    width:40px;
+    height:40px;
+    padding:8px 11px;
+    background-color: rgb(200, 199, 199);
+    border:1px solid rgba(0,0,0,.15);
+    border-right: 0;
+}
+
+.landing .login-form form .username input,
+.landing .login-form form .password input
+{
+height:40px;
+border:2px solid  gray ;
+border-radius:0;
+}
+
+.landing .login-form form .username input::placeholder,
+.landing .login-form form .password input::placeholder {
+    font-size:1.25rem;
+    color:gray;
+}
+
+.landing .login-form form .button button {
+    background-color: #1776c9;
+    border: none;
+     
+}
+
+/* footer */
+footer {
+ position: relative;
+background-image:url(../images/footer-bg.png);
+background-size: cover;
+background-position:center center !important;
+ 
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color: #1776c91d;
+}
+
+footer .contact {
+    position:relative;
+}
+footer .contact ul{
+list-style-type: none;
+}  
+
+ 
+
+/* login small page */
+
+.login-small-page .card {
+    margin:20px 0px;
+    overflow: hidden;
+}
+
+.login-small-page .card .form .username .email-icon ,
+.login-small-page .card .form .password .password-icon {
+   background-color:rgb(185, 184, 184);
+   border:1px solid gray;
+    
+}
+
+.login-small-page .card .form .username input,
+.login-small-page .card .form .password input {
+    border-radius: 0;
+}
+
+.login-small-page .card .form .username input::placeholder,
+.login-small-page .card .form .password input::placeholder {
+    font-size:1.25rem;
+    color:gray;
+}
+
+
+.login-small-page .card .form button {
+    background-color: #1776c9;
+    border: none;
+    width:100%;
+}
